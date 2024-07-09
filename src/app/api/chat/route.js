@@ -7,7 +7,7 @@ export async function POST(req) {
   const { messages } = await req.json();
 
   const result = await streamText({
-    model: "google/gemma-2-9b-it:free",
+    model: "harusnya pake openai mari kita coba nanti ok!",
     system: systemPrompt,
     messages,
   });
